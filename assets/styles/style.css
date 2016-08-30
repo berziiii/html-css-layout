@@ -6,22 +6,38 @@ div{
   width: 30%;
 }
 
+.container-fluid {
+  height: 10000px;
+}
+
 p {
   font-family: Helvetica;
 }
 
 .half {
   float: left;
-  width: 50%;
-  margin: 1px;
-  box-sizing: border-box;
+  width: 33%;
+  /*box-sizing: border-box;*/
 }
 
 .full{
-  background-color: blue;
   width: 100%;
+  top: 100px;
+  position: fixed;
+  background-color: blue;
+  color: white;
+  right: 0px;
 }
 
 .clearfix {
   clear: both;
+}
+
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .half {
+    clear: both;
+    width: 50%;
+    margin: 0% 25%;
+  }
 }
