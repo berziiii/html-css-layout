@@ -1,0 +1,26 @@
+
+body {
+  margin: 0px;
+  font-size: 16px;
+  width: 75%;
+  margin: 12.5%;
+}
+
+div {
+  border: 1px solid #000;
+  background-color: #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 75px;
+}
+
+.second-div {
+  border: 1px solid #000;
+  width: 100%;
+  background-color: #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: .75em
+}

@@ -11,7 +11,17 @@ p {
 }
 
 .half {
+  float: left;
+  width: 50%;
+  margin: 1px;
+  box-sizing: border-box;
 }
 
 .full{
+  background-color: blue;
+  width: 100%;
+}
+
+.clearfix {
+  clear: both;
 }
